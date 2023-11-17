@@ -1,4 +1,46 @@
-p {
-	font-size: 2rem;
-	font-weight: bold;
+#game-board {
+	/* height: 500px;
+	width: 500px; */
+	/* place-items: center; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.row {
+	display: flex;
+}
+
+.square {
+	height: 200px;
+	width: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+}
+
+#square-1 {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+#square-3 {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#square-4 {
+	border: 1px solid black;
+}
+
+#square-5 {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#square-7 {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 }
