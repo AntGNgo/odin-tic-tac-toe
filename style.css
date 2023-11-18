@@ -24,6 +24,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	font-size: 3rem;
+	user-select: none;
 }
 
 #square-1 {

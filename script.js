@@ -169,6 +169,5 @@ const game = (() => {
 	});
 })();
 
-// Need logic to stop taking squares that are already filled
 // remove ability to highlight cells
 // dark mode
