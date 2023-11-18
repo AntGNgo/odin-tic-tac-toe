@@ -32,7 +32,9 @@ const game = (() => {
 				square.addEventListener('click', () => {
 					// Need to find way to change board array then reflect it to the board not the other way arround?
 					// Update text content, update board array using array of dom elements?
-					player.makeMove(index);
+					if (square.textContent === '') {
+						player.makeMove(index);
+					}
 				});
 			});
 		};
@@ -166,3 +168,7 @@ const game = (() => {
 		winner.textContent = '';
 	});
 })();
+
+// Need logic to stop taking squares that are already filled
+// remove ability to highlight cells
+// dark mode
