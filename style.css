@@ -2,6 +2,11 @@
 
 body {
 	font-family: 'Cabin', sans-serif;
+	background: rgb(19, 21, 22);
+	color: rgb(232, 230, 227);
+	width: 70%;
+	padding-top: 40px;
+	margin: 0 auto;
 }
 
 #game-board {
@@ -28,27 +33,27 @@ body {
 }
 
 #square-1 {
-	border-left: 1px solid black;
-	border-right: 1px solid black;
+	border-left: 1px solid rgb(232, 230, 227);
+	border-right: 1px solid rgb(232, 230, 227);
 }
 
 #square-3 {
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 1px solid rgb(232, 230, 227);
+	border-bottom: 1px solid rgb(232, 230, 227);
 }
 
 #square-4 {
-	border: 1px solid black;
+	border: 1px solid rgb(232, 230, 227);
 }
 
 #square-5 {
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 1px solid rgb(232, 230, 227);
+	border-bottom: 1px solid rgb(232, 230, 227);
 }
 
 #square-7 {
-	border-left: 1px solid black;
-	border-right: 1px solid black;
+	border-left: 1px solid rgb(232, 230, 227);
+	border-right: 1px solid rgb(232, 230, 227);
 }
 
 #game-over {
@@ -75,7 +80,7 @@ body {
 }
 
 #play-again {
-	border: none;
+	border: 1px solid rgb(232, 230, 227);
 	color: white;
 	background-color: black;
 	padding: 10px 20px;
