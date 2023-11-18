@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+body {
+	font-family: 'Cabin', sans-serif;
+}
+
 #game-board {
-	/* height: 500px;
-	width: 500px; */
-	/* place-items: center; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
-.row {
+#row-0,
+#row-1,
+#row-2 {
 	display: flex;
 }
 
@@ -43,4 +48,52 @@
 #square-7 {
 	border-left: 1px solid black;
 	border-right: 1px solid black;
+}
+
+#game-over {
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.793);
+	font-size: 3rem;
+	color: white;
+	/* width: 500px;
+	height: 500px; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#game-over-text {
+	margin: 0;
+}
+
+#play-again {
+	border: none;
+	color: white;
+	background-color: black;
+	padding: 10px 20px;
+	border-radius: 8px;
+	font-size: 1.5rem;
+}
+
+#play-again:hover {
+	transform: scale(1.05);
+}
+
+#play-again:active {
+	transform: scale(1.02);
+}
+
+#winner {
+	margin: 20px;
+}
+
+.hidden {
+	display: none !important;
 }
