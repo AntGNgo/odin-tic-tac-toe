@@ -56,6 +56,16 @@ body {
 	border-right: 1px solid rgb(232, 230, 227);
 }
 
+#reset {
+	border: 1px solid rgb(232, 230, 227);
+	padding: 5px 10px;
+	background: black;
+	font-size: 1.2rem;
+	color: rgb(232, 230, 227);
+	border-radius: 8px;
+	cursor: pointer;
+}
+
 #game-over {
 	height: 100vh;
 	width: 100vw;
@@ -88,11 +98,13 @@ body {
 	font-size: 1.5rem;
 }
 
-#play-again:hover {
+#play-again:hover,
+#reset:hover {
 	transform: scale(1.05);
 }
 
-#play-again:active {
+#play-again:active,
+#reset:active {
 	transform: scale(1.02);
 }
 
